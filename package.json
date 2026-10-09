@@ -1,0 +1,9 @@
+{
+  "name": "vocablab-live-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {"build": "node build.mjs", "test": "node --test tests/*.test.mjs", "dev": "npx netlify-cli dev"},
+  "dependencies": {"@netlify/database": "2.0.1"}
+}
